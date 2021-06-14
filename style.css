@@ -1,0 +1,20 @@
+body{
+    background-size: cover;
+}
+.header{
+    background: transparent;
+    box-shadow: 5px 5px 5px white;
+    padding: 5px;
+    font-family: 'Mate SC', serif;
+   margin-top: 0px;
+  border: 3px solid black;
+  color:blanchedalmond;
+}
+.header span{
+    font-size: 18px;
+    color: crimson;
+}
+canvas{
+    border: 2px solid white;
+    border-radius: 20px;
+}
