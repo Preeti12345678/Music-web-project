@@ -51,7 +51,7 @@ function draw(){
     if(score_leftWrist>0.2){
         circle(leftWristX,leftWristY,20);
         on_the_ground.stop();
-        if(song1_status=="false"){
+        if(song1_status==false){
             butter.play();
             document.getElementById("song").innerHTML=" =Butter";
         }
@@ -59,7 +59,7 @@ function draw(){
     if(score_rightWrist>0.2){
         circle(rightWristX,rightWristY,20);
         butter.stop();
-        if(song2_status=="false"){
+        if(song2_status==false){
             on_the_ground.play();
             document.getElementById("song").innerHTML=" =On the ground";
         }
